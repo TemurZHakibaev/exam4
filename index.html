@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <title>Books</title>
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list__item">
+          <a href=""><img src="./assets/img/logo.png" alt="logo" /></a>
+        </li>
+        <li class="nav__list__item">
+          <input id="search-input" type="text" placeholder="Search books" />
+          <button id="search-btn">search</button>
+        </li>
+        <li class="nav__list__item">
+          <a href="./pages/admin.html" class="admin-btn">Admin</a>
+          <!-- <img src="./assets/img/sun.png" alt="sun" /> -->
+          <button class="logout-btn">Logout</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container2">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- <div class="swiper-slide">
+            <div class="container__right__card__top">
+              <img class="img2" id="book-img" src="./assets/img/book1.jpg" alt="" />
+            </div>
+            <div class="container__right__card__bottom">
+              <div class="container__right__card__bottom__top">
+                <h3 class="title" id="book-name">Flowers For Algernon</h3>
+                <p class="author" id="book-author">Daniel Keyes</p>
+                <p class="year" id="book-year">2012-11-15</p>
+              </div>
+              <div class="container__right__card__bottom__bottom">
+                <div class="btns">
+                  <button class="bookmark-btn">Bookmark</button>
+                  <button class="info-btn">More Info</button>
+                </div>
+                <a target="_blank"
+                  href="https://books.google.co.uz/books?id=8Pr_kLFxciYC&pg=PT236&dq=flowers+inauthor:keyes&hl=&cd=1&source=gbs_api#v=onepage&q=flowers%20inauthor%3Akeyes&f=false"><button
+                    class="btn read-btn">read</button></a>
+
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container__right__card__top">
+              <img class="img2" id="book-img" src="./assets/img/book2.jpg" alt="" />
+            </div>
+            <div class="container__right__card__bottom">
+              <div class="container__right__card__bottom__top">
+                <h3 class="title" id="book-name">Flowers for Algernon</h3>
+                <p class="author" id="book-author">David Rogers</p>
+                <p class="year" id="book-year">1969</p>
+              </div>
+              <div class="container__right__card__bottom__bottom">
+                <div class="btns">
+                  <button class="bookmark-btn">Bookmark</button>
+                  <button class="info-btn">More Info</button>
+                </div>
+                <a target="_blank"
+                  href="https://books.google.co.uz/books?id=8Pr_kLFxciYC&pg=PT236&dq=flowers+inauthor:keyes&hl=&cd=1&source=gbs_api#v=onepage&q=flowers%20inauthor%3Akeyes&f=false"><button
+                    class="btn read-btn">read</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container__right__card__top">
+              <img class="img2" id="book-img" src="./assets/img/book3.jpg" alt="" />
+            </div>
+            <div class="container__right__card__bottom">
+              <div class="container__right__card__bottom__top">
+                <h3 class="title" id="book-name">The Minds of Billy</h3>
+                <p class="author" id="book-author">Daniel Keyes</p>
+                <p class="year" id="book-year">2018-07-12</p>
+              </div>
+              <div class="container__right__card__bottom__bottom">
+                <div class="btns">
+                  <button class="bookmark-btn">Bookmark</button>
+                  <button class="info-btn">More Info</button>
+                </div>
+                <a target="_blank"
+                  href="https://books.google.co.uz/books?id=8Pr_kLFxciYC&pg=PT236&dq=flowers+inauthor:keyes&hl=&cd=1&source=gbs_api#v=onepage&q=flowers%20inauthor%3Akeyes&f=false"><button
+                    class="btn read-btn">read</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container__right__card__top">
+              <img class="img2" id="book-img" src="./assets/img/book4.jpg" alt="" />
+            </div>
+            <div class="container__right__card__bottom">
+              <div class="container__right__card__bottom__top">
+                <h3 class="title" id="book-name">Evan Dale</h3>
+                <p class="author" id="book-author">David Rogers</p>
+                <p class="year" id="book-year">1969</p>
+              </div>
+              <div class="container__right__card__bottom__bottom">
+                <div class="btns">
+                  <button class="bookmark-btn">Bookmark</button>
+                  <button class="info-btn">More Info</button>
+                </div>
+                <a target="_blank"
+                  href="https://books.google.co.uz/books?id=8Pr_kLFxciYC&pg=PT236&dq=flowers+inauthor:keyes&hl=&cd=1&source=gbs_api#v=onepage&q=flowers%20inauthor%3Akeyes&f=false"><button
+                    class="btn read-btn">read</button></a>
+              </div>
+            </div>
+          </div> -->
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      </div>
+    </section>
+    <section>
+
+      <div class="container">
+        <div class="container__left">
+          <div class="container__left__top">
+            <h3>Bookmarks</h3>
+            <p>If you don’t like to read, you haven’t found the right book</p>
+          </div>
+          <div class="container__left__bottom">
+            <div class="test2">
+              <div class="container__left__bottom__books">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container__right">
+          <!-- <div class="container__right__card">
+            <div class="container__right__card__top">
+              <img class="img2" id="book-img" src="${item.volumeInfo.imageLinks.smallThumbnail}" alt="" />
+            </div>
+            <div class="container__right__card__bottom"> -->
+          <!-- <div class="container__right__card__bottom__top">
+                <h3 class="title" id="book-name">${item.volumeInfo.title}</h3>
+                <p class="author" id="book-author">${item.volumeInfo.authors[0]}</p>
+                <p class="year" id="book-year">${item.volumeInfo.publishedDate}</p>
+              </div>
+              <div class="container__right__card__bottom__bottom">
+                <div class="btns">
+                  <button class="bookmark-btn" id="bookmark-info">Bookmark</button>
+                  <button class="info-btn">More Info</button>
+                </div>
+                <a target="_blank" href="${item.volumeInfo.previewLink}"><button class="btn read-btn">read</button></a>
+              </div> -->
+        </div>
+      </div>
+      </div>
+      </div>
+
+      <div id="pagination-container"></div>
+      <div class="modal">
+        <div class="modal__title">
+          <h2 id="modal-title">Python</h2>
+          <span id="modal-close">x</span>
+        </div>
+
+        <div class="modal__img">
+          <img id="modal-img" src="./assets/img/book1.jpg" alt="" />
+        </div>
+
+        <div class="modal__text">
+          <p id="modal-text">
+            Culpa nulla pariatur cupidatat nisi incididunt ea do ipsum.
+            Incididunt quis mollit elit commodo cillum eiusmod reprehenderit
+            labore irure. Cillum et incididunt et nostrud exercitation quis
+            aute laboris non ut adipisicing. Laboris ad minim aute nulla
+            proident deserunt velit anim sunt aliquip ut sit. Exercitation
+            aliquip ullamco officia non aliqua. Sint deserunt aliquip veniam
+            id eiusmod sit consectetur mollit ea aliqua officia consequat.
+            Magna non mollit nisi est commodo voluptate aute id. Deserunt
+            nostrud id do in nisi mollit deserunt non. Pariatur fugiat cillum
+            irure elit sint nisi ad ipsum culpa deserunt cupidatat esse
+            consequat laboris. Id aliquip non consectetur esse proident duis
+            Lorem.
+          </p>
+        </div>
+
+        <div class="modal__authors">
+          <p>
+            Author : <span class="modal__authors__active">Jamal Kasper</span>
+          </p>
+          <p>Published : <span class="modal__authors__active">2019</span></p>
+          <p>
+            Publishers: <span class="modal__authors__active">Hollman</span>
+          </p>
+          <p>
+            Categories: <span class="modal__authors__active">Computers</span>
+          </p>
+          <p>Pages Count: <span class="modal__authors__active">346</span></p>
+        </div>
+
+        <div class="modal__btn">
+          <button>Read</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./js/utils/findElement.js"></script>
+  <script type="module" src="./js/swiper.js"></script>
+  <script src="./js/modal.js"></script>
+  <script src="./js/pagination.js"></script>
+  <script src="./js/search.js"></script>
+
+  <script src="./js/main.js"></script>
+</body>
+
+
+</html>
